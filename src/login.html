@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles1.css">
+    <script src="script1.js" defer></script>
+    <title>Login Page</title>
+</head>
+
+<body>
+<header>
+    <form id ="loginForm"action="welcome.html">
+        <h2>Login</h2>
+        <div class="login page">
+            <img class="login_logo" src="https://banner2.cleanpng.com/20180418/gre/kisspng-human-resources-login-management-information-payro-track-5ad7cda3586cb1.5605091515240923233622.jpg" height="50" width="80" alt="Login">
+        </div>
+        <h2 class="h2 login account text">login to your account for more options </h2>
+        </div>
+        <input type="text" name="email" autofocus="1" placeholder="Email"pattern="/^[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_\+.~#?&//=]*)$/;">
+        <input type="password"  name="pass"  placeholder="Password" aria-label="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+        <button type="submit" name="login"  >Log In</button>
+    </form> <br>
+    <!-- <form action="forgetPassword.html">
+                    <a href="forgetPassword.html" ></a>
+                    <button type="submit">Forget password?</button><br>
+                </form> -->
+    <a href="forgetPassword.html" target="_blank" class="accountIss">forget Password? </a>
+    <!-- <form action="createAccount.html">
+         <a href="createAccount.html"class="createAccount"></a>
+        <button type="submit">Create New Account?</button> -->
+    <a href="createAccount.html" class="accountIss"> create an account</a>
+    </form>
+</header>
+<body>
+<div class="dropdown" id="dropdown1">
+    <button onclick="myFunction()" class="dropbtn">Select School program</button>
+    <div id="myDropdown" class="drop">
+        <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+        <a href="#kindergarten">kindergarten</a>
+        <a href="#Elementary">Elementary</a>
+        <a href="#Middle School">Middle School</a>
+        <a href="#High school">High schoo</a>
+        <a href="#Some College">Some College</a>
+        <a href="#Bachelor">Bachelor</a>
+        <a href="#Master">Master</a>
+    </div>
+</div>
+
+
+
+
+
+</body>
+
+
+
+</html>
